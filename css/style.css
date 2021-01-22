@@ -1,0 +1,51 @@
+body {
+  overflow-x: hidden;
+  background: linear-gradient(hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+}
+.row {
+  width: 68vw;
+  height: 70vh;
+  background-color: white;
+  border: black transparent;
+  border-radius: 10px;
+  margin: 3.8rem auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 3.8rem;
+  margin-bottom: 3.8rem; */
+}
+svg {
+  background-image: url(/basic-css/images/bg-pattern-desktop.svg);
+}
+ul li {
+  padding-right: 10px;
+  list-style-type: none;
+}
+p {
+  margin-bottom: 0;
+}
+p:hover {
+  color: hsl(14, 88%, 65%);
+}
+p::after {
+  font-size: bold;
+}
+.faq {
+  border-bottom: rgba(0, 0, 0, 0.4) 1px solid;
+  max-width: 30vw;
+}
+.box {
+  position: absolute;
+  top: 36%;
+  left: -15%;
+  right: 82%;
+  z-index: 1;
+}
+.woman {
+  width: 10vw;
+  position: absolute;
+  top: 10%;
+  left: -15%;
+}
